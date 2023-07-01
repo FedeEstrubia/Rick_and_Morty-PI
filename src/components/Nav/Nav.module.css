@@ -1,0 +1,27 @@
+nav {
+    margin-left: 25%;
+    height: 5em;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+
+.buttonNav{
+    color: gray;
+    width: 6%;
+    border-radius: 6px;
+    background: rgb(52, 55, 43);
+    border: 2px solid rgb(136, 167, 90);
+    transition: .35s;
+}
+
+.buttonNav:hover{
+    color: greenyellow;
+    transform: scale(1.02);
+    border-radius: 6px;
+    background: rgb(52, 55, 43);
+    border: 2px solid greenyellow;
+    transition: .25s;
+    cursor: pointer;
+}

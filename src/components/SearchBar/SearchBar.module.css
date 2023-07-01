@@ -1,0 +1,70 @@
+
+.divSearchBar{
+    height: 5vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputSearchBar{
+    color: gray;
+    background: rgb(52, 55, 43);
+    transition: .35s;
+    margin-right: 15px;
+    font-family: SimpsonFont;
+    border-radius: 5px;
+   
+}
+
+.inputSearchBar:focus{
+   color: greenyellow;
+   outline: 2px solid greenyellow;
+}
+
+
+.inputSearchBar:hover{
+    transform: scale(1.005);
+    background: rgb(52, 55, 43);
+    box-shadow: 0px 0px 5px 1px rgb(139, 140, 134);
+    transition: .15s;
+}
+
+
+.buttonSearch{
+    color: gray;
+    width: 6%;
+    border-radius: 6px;
+    background: rgb(52, 55, 43);
+    border: 2px solid rgb(136, 167, 90);
+    transition: .35s;
+}
+
+.buttonSearch:hover{
+    color: greenyellow;
+    transform: scale(1.02);
+    border-radius: 6px;
+    background: rgb(52, 55, 43);
+    border: 2px solid greenyellow;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.buttonRandom{
+    color: gray;
+    width: 6%;
+    margin-left: 5px;
+    border-radius: 6px;
+    background: rgb(52, 55, 43);
+    border: 2px solid rgb(136, 167, 90);
+    transition: .35s;
+}
+
+.buttonRandom:hover{
+    color: greenyellow;
+    transform: scale(1.02);
+    border-radius: 6px;
+    background: rgb(52, 55, 43);
+    border: 2px solid greenyellow;
+    transition: .25s;
+    cursor: pointer;
+}
